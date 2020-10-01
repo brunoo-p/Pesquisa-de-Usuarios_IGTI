@@ -1,0 +1,76 @@
+
+body{
+  background-image: url(../img/fundo.webp);
+  color: black;
+  align-items: center;
+}
+
+section{
+  background-color:rgba(242, 8, 250, 0.356);
+  border-radius: 10px;
+  align-items: baseline;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+
+#inputName{
+  font-family: black Helvetica;
+  font-size: 24px;
+  font-weight: 100;
+  font-weight: bold;
+}
+
+#divEncontrados, #divSumario{
+  background-color:rgba(245, 245, 245, 0.616);
+  border-radius: 10px;
+  padding: 15px 15px 15px;
+}
+
+.abas{
+  padding: 10px;
+  height: flex;
+  width: 600px;
+  border: solid grey 1px;
+  border-radius: 13px;
+  border-bottom: solid grey;
+  border-top: solid grey;
+  margin: 10px; 
+  flex-direction: column;
+  display: inline-block;
+}
+
+.img {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  padding: 4px;
+  margin: darkgray 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dados {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+footer{
+  font-style: italic;
+  font-weight: 100, 40px;
+  color: whitesmoke;
+  text-align: center;
+}
